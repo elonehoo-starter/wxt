@@ -1,0 +1,39 @@
+{
+  "name": "vitesse-ext",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Vitesse WebExt wxt template",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "vue-tsc --noEmit",
+    "postinstall": "wxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.0.1",
+    "unocss": "^0.62.2",
+    "unstorage": "^1.10.2",
+    "vue": "^3.4.34"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.26.0",
+    "@iconify-json/carbon": "^1.1.37",
+    "@unocss/reset": "^0.62.2",
+    "@vueuse/shared": "^11.0.1",
+    "@wxt-dev/module-vue": "^1.0.0",
+    "eslint": "^9.9.0",
+    "typescript": "^5.5.4",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.4",
+    "vite-plugin-vue-devtools": "^7.3.8",
+    "vue-tsc": "^2.0.29",
+    "wxt": "^0.19.1"
+  }
+}
