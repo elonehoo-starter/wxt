@@ -44,7 +44,7 @@ A [WXT](https://wxt.dev/) powered WebExtension ([Chrome](https://developer.chrom
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/elonehoo/starter-wxt/generate).
+[Create a repo from this template on GitHub](https://github.com/elonehoo-starter/wxt/generate).
 
 ### Clone to local
 
@@ -53,7 +53,7 @@ If you prefer to do it manually with the cleaner git history
 > If you don't have pnpm installed, run: npm install -g pnpm
 
 ```bash
-npx degit elonehoo/starter-wxt my-webext
+npx degit elonehoo-starter/wxt my-webext
 cd my-webext
 pnpm i
 ```
